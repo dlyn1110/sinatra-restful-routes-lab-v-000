@@ -10,7 +10,7 @@ class ApplicationController < Sinatra::Base
   erb :index
 end
 #---- NEW ACTION -----
-get '/articles/new' do
+get '/recipes/new' do
   erb :new
 end
 
